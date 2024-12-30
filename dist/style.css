@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'fragment';
+    src: url('./PPFragment-SansRegular.otf');
+}
+@font-face {
+    font-family: 'pangaia';
+    src: url('./PPPangaia-Medium.otf');
+}
+@page { margin: 0; }
+body { margin: 0; }
+.d-flex { display: flex; }
+.text-center { text-align: center; }
+.page {
+    width: 297mm;
+    height: 210mm;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 4mm;
+    gap: 4mm;
+    background: #0002;
+    > * { flex: 1; }
+}
+.month-title {
+    margin: 8mm 0 4mm 0;
+    font-size: 16mm;
+    padding: 4mm 0;
+    background: #fff;
+    font-family: 'pangaia';
+}
+.day {
+    border: 1px solid #0002;
+    padding: 3.4mm 5mm;
+    box-sizing: border-box;
+    height: 11.6mm;
+    background: #fff;
+    align-items: center;
+    > :first-child { 
+        font-family: 'fragment';
+        color: #0008;
+        text-transform: uppercase;
+        margin-right: 4mm;
+        width: 10mm;
+    }
+    > :last-child { 
+        font-family: 'pangaia';
+        color: #000;
+        font-size: 8mm;
+        padding-top: 2mm;
+    }
+}
