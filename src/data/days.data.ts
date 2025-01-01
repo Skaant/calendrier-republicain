@@ -53,7 +53,7 @@ export const SPECIAL_DAYS: {
   [3]: {
     [4]: [{ source: "chinese-jieqi", title: "驚蟄 Réveil des insectes" }],
     [21]: [
-      { source: "natural", title: "春分 Équinoxe de printemps" },
+      { source: "natural", title: "Équinoxe de printemps" },
       { source: "republican-month", title: "Germinal" },
       { source: "zodiac", title: "♈ Bélier" },
     ],
@@ -84,7 +84,7 @@ export const SPECIAL_DAYS: {
     [6]: [{ source: "chinese-jieqi", title: "芒種 Grain en épi" }],
     [9]: [{ source: "holiday", title: "Pentecôte" }],
     [19]: [{ source: "republican-month", title: "Messidor" }],
-    [21]: [{ source: "natural", title: "夏至 Solstice d'été" }],
+    [21]: [{ source: "natural", title: "Solstice d'été" }],
     [22]: [{ source: "zodiac", title: "♋ Cancer" }],
   },
   [7]: {
@@ -109,7 +109,7 @@ export const SPECIAL_DAYS: {
     [8]: [{ source: "chinese-jieqi", title: "白露 Rosée blanche" }],
     [22]: [{ source: "republican-month", title: "Vendémiaire" }],
     [23]: [
-      { source: "natural", title: "秋分 Équinoxe d'automne" },
+      { source: "natural", title: "Équinoxe d'automne" },
       { source: "zodiac", title: "♎ Balance" },
     ],
   },
@@ -135,7 +135,7 @@ export const SPECIAL_DAYS: {
     [7]: [{ source: "chinese-jieqi", title: "大雪 Neige forte" }],
     [21]: [{ source: "republican-month", title: "Nivôse" }],
     [22]: [
-      { source: "natural", title: "冬至 Solstice d'hiver" },
+      { source: "natural", title: "Solstice d'hiver" },
       { source: "zodiac", title: "♏ Capricorne" },
     ],
     [25]: [{ source: "holiday", title: "Noël" }],
