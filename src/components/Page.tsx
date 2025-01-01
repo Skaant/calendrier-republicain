@@ -20,8 +20,8 @@ export default function Page({
         </>
       ) : (
         <>
+          <MonthBottom year={year} month={month - 1} />
           <MonthBottom year={year} month={month} />
-          <MonthBottom year={year} month={month + 1} />
         </>
       )}
     </div>

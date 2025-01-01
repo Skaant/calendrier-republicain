@@ -27,7 +27,12 @@ export default function MonthTop({
     <div>
       <h2 className="month-title text-center">{MONTHS_NAME[month]}</h2>
       {[...Array(14)].map((_, i) => (
-        <Day key={i} day={i} weekday={new Date(year, month, i + 1).getDay()} />
+        <Day
+          key={i}
+          month={month}
+          day={i}
+          weekday={new Date(year, month, i + 1).getDay()}
+        />
       ))}
     </div>
   );
