@@ -19,7 +19,11 @@ export default function Day({
     ["holiday", "natural", "republican-month"].includes(source)
   );
   return (
-    <div className="day d-flex align-center">
+    <div
+      className={`day d-flex align-center${
+        weekday === 0 || weekday === 6 ? " week-end" : ""
+      }`}
+    >
       <div className="d-flex align-center">
         <div className="day-weekday">{DAYS_NAME[weekday].slice(0, 3)}</div>
         <div className="day-number">{day + 1}</div>

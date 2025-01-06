@@ -53,6 +53,9 @@ body {
   height: 11.6mm;
   background: #fff;
   justify-content: space-between;
+  &.week-end {
+    background: #0002;
+  }
 }
 .day-weekday {
   font-family: "fragment";
